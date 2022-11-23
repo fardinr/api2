@@ -10,3 +10,4 @@ def home():
   arg=request.args['arg1']
   return 'hello world'
 
+# app.run()
