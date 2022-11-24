@@ -9,8 +9,9 @@ def get():
     if request.method == 'POST':
         arg1=request.get_json()['url']
 
-        
-    # return arg1    
-    return model.pridict(arg1)
+@app.route('/')
+def home():
+   
+    return "hello world"
 
-app.run()
+# app.run()
